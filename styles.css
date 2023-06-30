@@ -6,31 +6,33 @@
     padding:0;
 }
 body{
+    margin:0;
+    padding:0;
     font-family: 'Lato',sans-serif;
     background: url('./assests/New Logo Without BG (1).png');
     background-position: top center;
     background-size: cover;
     background-repeat:no-repeat;
+    
 }
 .parent-container{
-    width:500px;
+    width:600px;
     display:block;
-    margin:auto;    
+    margin:auto;  
 }
 
-.header-container{
-    position: fixed ;
-    top: 0;
-    z-index: 999;
-   }
+
 .header{
-    width:640px;
     height:90px;
+    z-index: 999;
+    width:600px;
     background:linear-gradient(#fac021,
     #fa8011,
     #fc5306);
     text-align: center;
     color:#fff;
+    display: block;
+   margin: auto;
 }
    
     .header-h3{
@@ -40,14 +42,15 @@ body{
         padding-top: 20px;
     }
      .main-div{
-        margin-top: 125px;
+        margin-top: 60px;   
      }
 
 .div-one{
-    width:600px;
+    width:570px;
     height:115px;
     box-shadow: 6px 10px 15px 10px #f1f1f1;
     padding: 13px;
+    background: #fff;
 }
 .first-p{
     font-size: 18px;
@@ -87,10 +90,11 @@ body{
 }
 .div-three{ 
     margin-top:30px;
-    width:600px;
+    width:580px;
     height:160px;
     box-shadow: 6px 10px 15px 10px #f1f1f1;
     padding: 10px;
+    background: #fff;
 }
 .input-three{
     width:100%;
@@ -101,7 +105,7 @@ body{
     font-size: 50px;
     text-align: center;
     margin-bottom: 10px;
-    
+    background: #fff;
 }
 .input-three:focus{
     outline: none;
@@ -119,11 +123,11 @@ body{
 }
 .div-four{
     margin-top:20px;
-    width:600px;
+    width:570px;
     box-shadow: 6px 10px 15px 10px #f1f1f1;
     padding: 15px 15px 25px 15px;
     display:none;
-   margin-bottom: 50px;
+   margin-bottom: 30px;
 }
 .select-div{
     margin-top:25px
@@ -144,10 +148,12 @@ font-size: 17px;
 }
 
 .div-five{
-    width:600px;
-    box-shadow: 6px 10px 15px 10px #f1f1f1;
+    width:555px;
+     /* box-shadow: 6px 10px 15px 10px #f1f1f1;  */
     padding: 15px;
     display:none;
+    background: #fff;
+    margin-top: 30px;
 }
 
 .method-div{
@@ -155,9 +161,9 @@ font-size: 17px;
 }
 
 .method-div .method{
-    width:95%;
+    width:540px;
     height:40px;
-    box-shadow: 3px 3px 5px 5px #fdfcfc;
+    /* box-shadow: 3px 3px 5px 5px #fdfcfc; */
     margin-bottom: 5px;  
     position: relative;  
 }
@@ -175,7 +181,6 @@ font-size: 17px;
 .method:hover {
    background-color: #f57a07;
    color:#fff !important; 
-
 }
 .method:hover .font-five{
      color:#fff !important;
@@ -185,12 +190,11 @@ font-size: 17px;
     color:#fff !important; 
 }
 .bank-account{
-    margin-top:40px;
-    width:600px;
-    height:80px;
-    box-shadow: 6px 10px 15px 10px #f8f8f6;
+    width:552px;
     padding: 10px;
     display: none;
+    background: #fff;
+    margin-top: 30px;
 }
 .abuja-account{
     margin-top: 10px;
@@ -199,7 +203,6 @@ font-size: 17px;
    padding: 20px;
 }
 
-
 .abuja-account button{
    width:60px;
    height:30px;
@@ -207,18 +210,11 @@ font-size: 17px;
    border: none;
    border-radius: 5px;
 }
+
 .account-text p{
     margin-bottom: 8px;
 }
 
-/* .partnership-container{
-    width:600px;
-    height:80px;
-    box-shadow: 6px 10px 15px 10px #f8f8f6;
-    padding: 10px;
-    margin-top: 30px;
-    display:none;
-} */
 .partnership-container .partnership-account{
    margin-bottom: 20px;
 }
@@ -226,11 +222,13 @@ font-size: 17px;
 .projects-container .projects-account{
     margin-bottom: 20px;
 }
+
 @media(max-width:600px){
     .header{
         width:100vw;
         height:70px;
     }
+
     .parent-container{
         width: 340px;
     }
@@ -250,12 +248,12 @@ font-size: 17px;
         font-size: 17px;   
     }
     .div-one-flex{
-        gap:11px;
+        gap:13px;
         margin-top:30px;
     }
     .div-one-flex .flex-one{
-        width:120px;
-        height:65px;  
+        width:160px;
+        height:70px;  
     }
     
 .div-three{ 
@@ -295,7 +293,4 @@ font-size: 17px;
     margin-top: 10px;
    padding: 10px;
 }
-
-
-
 }
