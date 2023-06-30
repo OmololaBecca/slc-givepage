@@ -6,8 +6,6 @@
     padding:0;
 }
 body{
-    margin:0;
-    padding:0;
     font-family: 'Lato',sans-serif;
     background: url('./assests/New Logo Without BG (1).png');
     background-position: top center;
@@ -22,6 +20,7 @@ body{
 
 .header-container{
     position: fixed ;
+    top: 0;
     z-index: 999;
    }
 .header{
@@ -41,8 +40,7 @@ body{
         padding-top: 20px;
     }
      .main-div{
-        position: absolute;
-        top:125px;
+        margin-top: 125px;
      }
 
 .div-one{
@@ -229,10 +227,12 @@ font-size: 17px;
     margin-bottom: 20px;
 }
 @media(max-width:600px){
-      
     .header{
         width:100vw;
         height:70px;
+    }
+    .parent-container{
+        width: 340px;
     }
     .header-h3{
         font-size: 20px;
@@ -244,7 +244,7 @@ font-size: 17px;
      .div-one{
         width:325px;
         height:140px;
-        padding: 10px 15px;
+        padding: 15px;
     }
     .first-p{
         font-size: 17px;   
@@ -295,6 +295,7 @@ font-size: 17px;
     margin-top: 10px;
    padding: 10px;
 }
+
 
 
 }
