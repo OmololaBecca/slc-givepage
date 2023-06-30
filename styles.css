@@ -225,7 +225,7 @@ font-size: 17px;
 
 @media(max-width:600px){
     .header{
-        width:100vw;
+        width:100%;
         height:70px;
     }
 
@@ -242,7 +242,6 @@ font-size: 17px;
      .div-one{
         width:325px;
         height:140px;
-        padding: 15px;
     }
     .first-p{
         font-size: 17px;   
@@ -279,18 +278,16 @@ font-size: 17px;
     width:325px;
    margin-bottom: 20px;
 }
+.method-div .method{
+    width:300px;
+     
+}
 .div-five{
-    width:325px;
-    height:90px;
+    width:300px;
     margin-top: 30px;
     
 }
 .bank-account{
-    margin-top:40px;
-    width:320px;
-}
-.abuja-account{
-    margin-top: 10px;
-   padding: 10px;
+    width:300px;
 }
 }
