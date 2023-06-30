@@ -165,7 +165,7 @@ font-size: 17px;
     height:40px;
     /* box-shadow: 3px 3px 5px 5px #fdfcfc; */
     margin-bottom: 5px;  
-    position: relative;  
+    position: relative;
 }
 .text-method{
     position: absolute;
@@ -201,6 +201,7 @@ font-size: 17px;
     display:flex;
    justify-content: space-between;
    padding: 20px;
+   background: #fff;
 }
 
 .abuja-account button{
